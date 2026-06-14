@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "ISO 20022",
+  "description": "ISO 20022 is the international financial messaging standard published by the International Organization for Standardization (ISO) that provides a common language and model for financial data. It defines business processes, data elements, and message definitions used by banks, payment systems, securities settlement systems, and other financial institutions worldwide for payment messages, securities messages, trade finance, and foreign exchange.",
+  "url": "https://www.iso20022.org",
+  "image": "https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png",
+  "documentation": "https://www.iso20022.org/catalogue-messages",
+  "termsOfService": "https://www.iso20022.org/terms-and-conditions",
+  "provider": {
+    "@type": "Organization",
+    "name": "ISO 20022 Registration Authority (SWIFT)",
+    "url": "https://www.iso20022.org",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "iso20022ra@swift.com",
+      "url": "https://www.iso20022.org/contact"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": [
+    "Financial Messaging",
+    "Payments",
+    "Securities",
+    "Banking",
+    "ISO Standard",
+    "SWIFT",
+    "Financial Services"
+  ],
+  "hasPart": [
+    {
+      "@type": "WebAPI",
+      "name": "ISO 20022 Message Catalogue API",
+      "description": "Browse and retrieve ISO 20022 message definitions from the official catalogue across business domains including payments, securities, trade services, cards, and foreign exchange.",
+      "url": "https://www.iso20022.org/catalogue-messages",
+      "documentation": "https://www.iso20022.org/catalogue-messages"
+    },
+    {
+      "@type": "WebAPI",
+      "name": "ISO 20022 e-Repository API",
+      "description": "Programmatic access to the full ISO 20022 data dictionary and business process catalogue maintained by SWIFT as Registration Authority.",
+      "url": "https://www.iso20022.org/iso20022-repository/e-repository",
+      "documentation": "https://www.iso20022.org/iso20022-repository/e-repository"
+    },
+    {
+      "@type": "WebAPI",
+      "name": "ISO 20022 API Resources Catalogue",
+      "description": "Registered API resources aligned with the ISO 20022 standard, governed by the API Standards Evaluation Group (APISEG), covering payments, securities, trade finance, and foreign exchange domains.",
+      "url": "https://www.iso20022.org/catalogue-api-resources-change-requests",
+      "documentation": "https://www.iso20022.org/about-iso-20022/apis-and-iso-20022"
+    },
+    {
+      "@type": "WebAPI",
+      "name": "ISO 20022 Message Archive API",
+      "description": "Historical archive of superseded and retired ISO 20022 message definitions for backward compatibility and migration purposes.",
+      "url": "https://www.iso20022.org/catalogue-messages/iso-20022-messages-archive",
+      "documentation": "https://www.iso20022.org/catalogue-messages/iso-20022-messages-archive"
+    }
+  ],
+  "dateCreated": "2026-06-13",
+  "dateModified": "2026-06-13"
+}
