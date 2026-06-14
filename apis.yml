@@ -1,0 +1,156 @@
+name: ISO 20022
+description: >
+  ISO 20022 is the international financial messaging standard published by
+  the International Organization for Standardization (ISO) that provides a
+  common language and model for financial data. It defines business processes,
+  data elements, and message definitions used by banks, payment systems,
+  securities settlement systems, and other financial institutions worldwide for
+  payment messages, securities messages, trade finance, and foreign exchange.
+  SWIFT serves as the ISO 20022 Registration Authority, maintaining the
+  message repository and e-Repository. As of 2025 ISO 20022 became the
+  exclusive format for cross-border payments on the SWIFT network, with more
+  than 60 central banks worldwide either completed or underway with migration.
+image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
+tags:
+  - Financial Messaging
+  - Payments
+  - Securities
+  - Banking
+  - ISO Standard
+  - SWIFT
+  - Financial Services
+created: '2026-06-13'
+modified: '2026-06-13'
+url: https://raw.githubusercontent.com/api-evangelist/iso20022/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - name: ISO 20022 Message Catalogue API
+    description: >
+      Browse and retrieve ISO 20022 message definitions from the official
+      catalogue. The catalogue contains all current versions of ISO 20022 global
+      message definitions across business domains including payments, securities,
+      trade services, cards, and foreign exchange. Definitions are searchable by
+      message identifier (e.g., pacs.008, camt.053) and downloadable as XSD
+      schemas.
+    image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
+    humanURL: https://www.iso20022.org/catalogue-messages
+    baseURL: https://www.iso20022.org
+    tags:
+      - Message Definitions
+      - Payment Messages
+      - Securities Messages
+      - Financial Standards
+    properties:
+      - type: Documentation
+        url: https://www.iso20022.org/catalogue-messages
+      - type: OpenAPI
+        url: https://www.iso20022.org/iso-20022-message-definitions
+    contact:
+      - FN: ISO 20022 Registration Authority (SWIFT)
+        url: https://www.iso20022.org/contact
+        email: iso20022ra@swift.com
+  - name: ISO 20022 e-Repository API
+    description: >
+      The ISO 20022 e-Repository provides programmatic access to the full ISO
+      20022 data dictionary and business process catalogue maintained by SWIFT
+      as Registration Authority. It contains the canonical data model including
+      message components, data types, code sets, and business concepts that
+      underpin all ISO 20022 message definitions. Downloadable XMI files expose
+      the complete metamodel.
+    image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
+    humanURL: https://www.iso20022.org/iso20022-repository/e-repository
+    baseURL: https://www.iso20022.org
+    tags:
+      - Data Dictionary
+      - Business Process Catalogue
+      - Metamodel
+      - XMI
+    properties:
+      - type: Documentation
+        url: https://www.iso20022.org/iso20022-repository/e-repository
+      - type: TermsOfService
+        url: https://www.iso20022.org/terms-and-conditions
+    contact:
+      - FN: ISO 20022 Registration Authority (SWIFT)
+        url: https://www.iso20022.org/contact
+        email: iso20022ra@swift.com
+  - name: ISO 20022 API Resources Catalogue
+    description: >
+      The ISO 20022 API Resources Catalogue, governed by the API Standards
+      Evaluation Group (APISEG), provides registered API resources aligned with
+      the ISO 20022 standard. Submitting organisations develop ISO 20022
+      compliant RESTful API resources and Resource Definition Reports following
+      the ISO 20022 API best practices white paper and OpenAPI Specification
+      guidance. Resources cover payments, securities, trade finance, and foreign
+      exchange domains.
+    image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
+    humanURL: https://www.iso20022.org/catalogue-api-resources-change-requests
+    baseURL: https://www.iso20022.org
+    tags:
+      - API Resources
+      - RESTful APIs
+      - OpenAPI
+      - Financial APIs
+      - APISEG
+    properties:
+      - type: Documentation
+        url: https://www.iso20022.org/about-iso-20022/apis-and-iso-20022
+      - type: GettingStarted
+        url: https://www.iso20022.org/development-new-api-resources
+      - type: Guide
+        url: https://www.iso20022.org/sites/default/files/media/file/ISO_20022_and_Web_APIs_An_Implementation_Best_Practices_White_Paper_10June2025.pdf
+    contact:
+      - FN: ISO 20022 API Standards Evaluation Group
+        url: https://www.iso20022.org/development-new-api-resources
+        email: iso20022ra@swift.com
+  - name: ISO 20022 Message Archive API
+    description: >
+      Historical archive of superseded and retired ISO 20022 message
+      definitions. Provides access to previous versions of message definitions
+      for backward compatibility and migration purposes. Essential for financial
+      institutions maintaining legacy payment and securities systems during
+      migration to current ISO 20022 standards.
+    image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
+    humanURL: https://www.iso20022.org/catalogue-messages/iso-20022-messages-archive
+    baseURL: https://www.iso20022.org
+    tags:
+      - Message Archive
+      - Legacy Messages
+      - Migration
+      - Backward Compatibility
+    properties:
+      - type: Documentation
+        url: https://www.iso20022.org/catalogue-messages/iso-20022-messages-archive
+    contact:
+      - FN: ISO 20022 Registration Authority (SWIFT)
+        url: https://www.iso20022.org/contact
+        email: iso20022ra@swift.com
+common:
+  - type: Website
+    url: https://www.iso20022.org
+  - type: Developer
+    url: https://www.iso20022.org/about-iso-20022/apis-and-iso-20022
+  - type: Documentation
+    url: https://www.iso20022.org/catalogue-messages
+  - type: GettingStarted
+    url: https://www.iso20022.org/development-new-api-resources
+  - type: Guide
+    url: https://www.iso20022.org/sites/default/files/media/file/ISO_20022_and_Web_APIs_An_Implementation_Best_Practices_White_Paper_10June2025.pdf
+  - type: TermsOfService
+    url: https://www.iso20022.org/terms-and-conditions
+  - type: PrivacyPolicy
+    url: https://www.iso20022.org/privacy-policy
+  - type: Contact
+    url: https://www.iso20022.org/contact
+  - type: GitHub
+    url: https://github.com/20022
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/iso20022/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/iso20022/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/iso20022/refs/heads/main/finops/finops.yml
+maintainers:
+  - FN: Kin Lane
+    X-twitter: kinlane
+    email: kin@apievangelist.com

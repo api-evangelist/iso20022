@@ -1,0 +1,49 @@
+name: ISO 20022 Access Plans
+description: >
+  ISO 20022 is an open international standard maintained by the International
+  Organization for Standardization. The message repository, catalogue, and
+  e-Repository are publicly accessible without charge or registration. Access
+  to the full standard documentation and message definitions is provided freely
+  to support global financial industry adoption. The API Resources Catalogue
+  and development of new API resources through the API Standards Evaluation
+  Group (APISEG) process is also open, though submission of new API resources
+  requires engagement with the Registration Authority.
+plans:
+  - name: Open Access
+    description: >
+      Free, unrestricted access to the ISO 20022 message catalogue, e-Repository,
+      message definitions, XSD schemas, and all published API resources. No
+      registration, API key, or authentication required. The standard is freely
+      accessible to support worldwide adoption by financial institutions,
+      fintech companies, payment processors, and central banks.
+    url: https://www.iso20022.org
+    price: Free
+    authentication: None
+    rateLimits: None specified
+    features:
+      - Full ISO 20022 message catalogue access
+      - Message definition downloads (XSD schemas)
+      - e-Repository XMI file downloads
+      - API Resources Catalogue access
+      - Best practices documentation
+      - Historical message archive
+      - Code sets and data dictionaries
+  - name: ISO 20022 Registration Authority Membership
+    description: >
+      Financial institutions, payment system operators, and technology vendors
+      may engage with the ISO 20022 Registration Authority (SWIFT) to submit
+      new message definitions or API resources for inclusion in the standard.
+      This process involves formal submission procedures, review by the relevant
+      Standards Evaluation Group (SEG), and registration once approved. There
+      is no charge for the submission process itself, though engagement with
+      SWIFT as Registration Authority may involve separate commercial
+      arrangements.
+    url: https://www.iso20022.org/development-new-api-resources
+    price: Free (standard process)
+    authentication: Registration required for submissions
+    features:
+      - Submit new message definitions
+      - Submit new API resources
+      - Participate in Standards Evaluation Group review
+      - Access to draft and candidate standards
+      - Collaboration with global financial community

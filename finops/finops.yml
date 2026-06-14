@@ -1,0 +1,46 @@
+name: ISO 20022 FinOps
+description: >
+  ISO 20022 is an open international standard with no direct costs for
+  accessing message definitions, the e-Repository, or the API Resources
+  Catalogue. The standard itself is freely available to all. Cost
+  considerations for organizations adopting ISO 20022 arise from implementation
+  activities rather than access fees: technology infrastructure, SWIFT
+  connectivity, testing tools, and professional services. Organizations should
+  budget for migration and compliance costs rather than API access fees.
+model: Open Standard
+pricing:
+  - name: Standard Access
+    description: >
+      Access to all ISO 20022 message definitions, schemas, the e-Repository,
+      and published API resources is free of charge. ISO 20022 is an open
+      international standard published for broad global adoption.
+    cost: Free
+    unit: N/A
+  - name: SWIFT Connectivity
+    description: >
+      Financial institutions sending ISO 20022 messages over the SWIFT network
+      incur costs related to SWIFT membership, connectivity (SWIFT Alliance,
+      Service Bureau, or cloud-based connectivity), and message traffic fees.
+      These are SWIFT charges separate from the ISO 20022 standard itself.
+    cost: Variable
+    unit: Per institution / per message tier
+    url: https://www.swift.com/our-solutions/connectivity-and-integration
+  - name: ISO Standard Purchase
+    description: >
+      The formal ISO 20022-1:2026 metamodel document can be purchased from
+      ISO or national standards bodies. This is the normative document for the
+      metamodel definition. The operational message definitions used by the
+      financial industry are freely available from iso20022.org.
+    cost: Variable
+    unit: Per document purchase
+    url: https://www.iso.org/standard/20022-1
+considerations:
+  - Migration from SWIFT MT to ISO 20022 MX messages requires significant
+    internal systems investment for most financial institutions.
+  - Third-party translation and validation tools (e.g., Finastra, Temenos,
+    Bottomline) have their own licensing costs.
+  - Testing and certification against ISO 20022 standards may require
+    engagement with SWIFT or regional payment infrastructure operators.
+  - Central banks and payment system operators may charge membership or
+    connectivity fees for access to ISO 20022 based payment rails (e.g.,
+    TARGET2, CHAPS, Fedwire Funds).

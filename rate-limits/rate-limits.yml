@@ -1,0 +1,36 @@
+name: ISO 20022 Rate Limits
+description: >
+  ISO 20022 is an open international standard published by the International
+  Organization for Standardization. The official ISO 20022 website
+  (iso20022.org), message catalogue, and e-Repository are provided as
+  informational web resources rather than metered API services. No formal
+  published rate limits apply to browsing the catalogue or downloading message
+  definitions and schemas. Standard web server protections and fair-use
+  policies apply to all users. Financial institutions implementing ISO 20022
+  within their own systems should refer to the rate limit policies of their
+  specific technology providers (e.g., SWIFT network, cloud payment processors).
+rateLimits:
+  - name: Message Catalogue
+    description: >
+      No published rate limits. The ISO 20022 message catalogue is accessible
+      as a standard web resource. Automated bulk downloads of XSD schemas and
+      message definitions should be done respectfully with appropriate delays
+      between requests to avoid placing excessive load on the server.
+    requests: Not specified
+    period: Not specified
+    notes: Standard fair-use policy applies
+  - name: e-Repository Downloads
+    description: >
+      XMI and schema file downloads from the e-Repository are provided without
+      documented rate limits. Large files (full repository exports) are available
+      as periodic snapshots rather than real-time API calls.
+    requests: Not specified
+    period: Not specified
+    notes: File-based distribution; no streaming API rate limits
+  - name: API Resources Catalogue
+    description: >
+      The API Resources Catalogue is a reference resource. No rate limits are
+      published for browsing or downloading API resource definitions.
+    requests: Not specified
+    period: Not specified
+    notes: Open access without metering
