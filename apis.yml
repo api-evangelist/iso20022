@@ -10,6 +10,18 @@ description: >
   message repository and e-Repository. As of 2025 ISO 20022 became the
   exclusive format for cross-border payments on the SWIFT network, with more
   than 60 central banks worldwide either completed or underway with migration.
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
 tags:
   - Financial Messaging
