@@ -40,8 +40,8 @@ tags:
   - Securities
   - Banking
   - ISO Standard
-  - Swift
-  - Financial-Services
+  - SWIFT
+  - Financial Services
 tags_raw:
   - Financial Messaging
   - Payments
@@ -50,6 +50,7 @@ tags_raw:
   - ISO Standard
   - SWIFT
   - Financial Services
+  - Financial-Services
 created: '2026-06-13'
 modified: '2026-06-13'
 url: https://raw.githubusercontent.com/api-evangelist/iso20022/refs/heads/main/apis.yml
@@ -65,7 +66,6 @@ apis:
       schemas.
     image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
     humanURL: https://www.iso20022.org/catalogue-messages
-    baseURL: https://www.iso20022.org
     tags:
       - Message Definitions
       - Payment Messages
@@ -90,7 +90,6 @@ apis:
       the complete metamodel.
     image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
     humanURL: https://www.iso20022.org/iso20022-repository/e-repository
-    baseURL: https://www.iso20022.org
     tags:
       - Data Dictionary
       - Business Process Catalogue
@@ -116,7 +115,6 @@ apis:
       exchange domains.
     image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
     humanURL: https://www.iso20022.org/catalogue-api-resources-change-requests
-    baseURL: https://www.iso20022.org
     tags:
       - API Resources
       - RESTful APIs
@@ -143,7 +141,6 @@ apis:
       migration to current ISO 20022 standards.
     image: https://www.iso20022.org/sites/default/files/2023-04/ISO20022_logo.png
     humanURL: https://www.iso20022.org/catalogue-messages/iso-20022-messages-archive
-    baseURL: https://www.iso20022.org
     tags:
       - Message Archive
       - Legacy Messages
