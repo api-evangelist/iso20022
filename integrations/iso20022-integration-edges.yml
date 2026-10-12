@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/iso20022/integrations
+- https://zapier.com/apps/iso-20022/integrations
+- https://n8n.io/integrations/iso20022/
+- https://composio.dev/toolkits/iso20022
+- https://monid.ai/tools/iso20022
+checked:
+- https://composio.dev/toolkits/iso20022
+- https://monid.ai/tools/iso20022
+- https://n8n.io/integrations/iso20022/
+- https://zapier.com/apps/iso-20022/integrations
+- https://zapier.com/apps/iso20022/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
