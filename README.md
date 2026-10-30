@@ -64,28 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ISO 20022 is the international financial messaging standard published by the International Organization for Standardization (ISO) that provides a common language and model for financial data. It defines business processes, data elements, and message definitions used by banks, payment systems, securities settlement systems, and other financial institutions worldwide.
+ISO 20022 is the international financial messaging standard published by the International Organization for Standardization (ISO) that provides a common language and model for financial data. It defines business processes, data elements, and message definitions used by banks, payment systems, securities settlement systems, and other financial institutions worldwide for payment messages, securities messages, trade finance, and foreign exchange. SWIFT serves as the ISO 20022 Registration Authority, maintaining the message repository and e-Repository. As of 2025 ISO 20022 became the exclusive format for cross-border payments on the SWIFT network, with more than 60 central banks worldwide either completed or underway with migration.
 
-The standard covers payment messages, securities messages, trade finance, foreign exchange, and card payments. SWIFT serves as the ISO 20022 Registration Authority, maintaining the central message repository and e-Repository. As of 2025, ISO 20022 became the exclusive format for cross-border payments on the SWIFT network, with more than 60 central banks worldwide either completed or underway with migration.
+**Areas:** Financial Messaging · Payments · Securities · Banking · ISO Standard · SWIFT · Financial Services
 
-**API Resources:**
+## ISO 20022 on APIs.io
 
-- [Message Catalogue](https://www.iso20022.org/catalogue-messages) - All current ISO 20022 message definitions
-- [e-Repository](https://www.iso20022.org/iso20022-repository/e-repository) - Full data dictionary and business process catalogue
-- [API Resources Catalogue](https://www.iso20022.org/catalogue-api-resources-change-requests) - RESTful API resources aligned with ISO 20022
-- [APIs and ISO 20022](https://www.iso20022.org/about-iso-20022/apis-and-iso-20022) - Official guidance on API development
-- [Best Practices White Paper](https://www.iso20022.org/sites/default/files/media/file/ISO_20022_and_Web_APIs_An_Implementation_Best_Practices_White_Paper_10June2025.pdf) - ISO 20022 and Web APIs implementation guide
+Everything profiled for ISO 20022 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/iso20022/](https://apis.io/providers/iso20022/)** — or go straight to one of the APIs or properties below.
 
-**Key Message Domains:**
+### APIs (4)
 
-- **Payments (pacs, pain, camt)** - Payment initiation, clearing, settlement, and cash management
-- **Securities (sese, semt, setr, seev)** - Settlement, management, trading, and events
-- **Trade Services (tsmt, tsrv)** - Trade finance messaging
-- **Foreign Exchange (fxtr)** - FX trade and settlement
-- **Cards (cain, caad, caam)** - Card transactions and ATM messaging
+- [ISO 20022 Message Catalogue API](https://apis.io/apis/iso20022/iso-20022-message-catalogue-api/) — Browse and retrieve ISO 20022 message definitions from the official catalogue. The catalogue contains all current versions of ISO 20022 global message…
+- [ISO 20022 e-Repository API](https://apis.io/apis/iso20022/iso-20022-e-repository-api/) — The ISO 20022 e-Repository provides programmatic access to the full ISO 20022 data dictionary and business process catalogue maintained by SWIFT as…
+- [ISO 20022 API Resources Catalogue](https://apis.io/apis/iso20022/iso-20022-api-resources-catalogue/) — The ISO 20022 API Resources Catalogue, governed by the API Standards Evaluation Group (APISEG), provides registered API resources aligned with the ISO 20022…
+- [ISO 20022 Message Archive API](https://apis.io/apis/iso20022/iso-20022-message-archive-api/) — Historical archive of superseded and retired ISO 20022 message definitions. Provides access to previous versions of message definitions for backward…
 
-**Links:**
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Iso20022 Domain Security](https://apis.io/security/iso20022/iso20022-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/iso20022/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/iso20022/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/iso20022/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.iso20022.org)
-- [GitHub](https://github.com/20022)
-- [APIs.json](apis.yml)
+- [Documentation](https://www.iso20022.org/catalogue-messages)
+- [Getting started](https://www.iso20022.org/development-new-api-resources)
+- [Terms of service](https://www.iso20022.org/terms-and-conditions)
+- [Privacy policy](https://www.iso20022.org/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 10.7 |
+| Access clarity | 15.8 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.9** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/iso20022/](https://apis.io/providers/iso20022/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ISO 20022: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/iso20022/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
